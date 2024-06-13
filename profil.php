@@ -14,18 +14,19 @@
         <div>
             <a href="index.html">Главная</a>
             <a href="shop.php">Магазин</a>
-            <a href="index.html">О нас</a>
+            <a href="index.html #About">О нас</a>
             <a href="profil.php">Личный кабинет</a>
             <a href="rooms.html">Комнаты</a>
         </div>  
     </div>
     <?php
-        $server = "localhost";
+        /*$server = "localhost";
         $username = "root";
         $password = "";
         $dbname = "default_db";
         
-        $conn = mysqli_connect($server, $username, $password, $dbname);
+        $conn = mysqli_connect($server, $username, $password, $dbname);*/
+        $conn = new mysqli('mysql:host=147.45.251.11; port=3306; dbname=default_db', 'gen_user', '12345z12345z');
         $query = "set names utf8";
         $conn->query($query);
         $query = "SELECT * FROM default_db.Profil";
