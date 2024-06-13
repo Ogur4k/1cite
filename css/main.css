@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fddc9ef8;
+    z-index: 0;
+  }
+
+  .nav {
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.3);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #D59D80;
+  }
+  
+
+  .nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: #964E27;
+    color: black;
+  }
+
+  .galery{
+    background-color: #56AF7A;
+    margin-top: 60px;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 800px;
+    border-radius: 2cap;
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.5);
+  }
+  .tx {
+    display: flex;
+    float: left;
+    width: 550px;
+    height: 350px;
+  }
+  .tx span {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 7%;
+    margin-right: 5%;
+    hyphens: auto;
+    font-size: 3vh;
+  }
+  .picture{
+    display: flex;
+    float: left;
+    width: 250px;
+    height: 350px;
+  }
+  .picture img {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 220px;
+    height: 210px;
+    border-radius: 2cap;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .middle2 {
+    border-radius: 2cap 2cap 0px 0px;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: #56AF7A;
+    width: 1100px;
+    height: 1470px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .group {
+    height: 600px;
+    width: 1100px;
+    display: block;
+    float: left;
+    margin: 0%;
+  }
+  .group2 {
+    height: 270px;
+    width: 1100px;
+    display: block;
+    float: left;
+    margin: 0%;
+  }
+  .group_tx {
+    height: 150px;
+    width: 1050px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    justify-content: center;
+  }
+  .group_tx span {
+    text-indent: 30px;
+    word-wrap: break-word;
+    text-align: justify;
+    font-size: 3vh;
+  }
+  .group_img{
+    height: 350px;
+    width: 1100px;
+    justify-content: center;
+  }
+  .group_img img {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 10%;
+    border-radius: 2cap;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 800px;
+    height: 340px;
+  }
+  

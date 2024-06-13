@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/per.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav" id="home">
+        <div class="logo">
+
+        </div>
+        <div>
+            <a href="index.html">Главная</a>
+            <a href="shop.php">Магазин</a>
+            <a href="index.html #About">О нас</a>
+            <a href="per.html">Регистарция</a>
+            <a href="per.html">Авторизация</a>
+        </div>  
+    </div>
+    <div class="forms">
+        <div class="formreg">
+            <form action="php/reg.php" method="post">
+                <h2>Регистрация</h2><br>
+                <label>Имя</label><br>
+                <input type="text" name="nick"><br>
+                <label>Логин</label><br>
+                <input type="text" name="log"><br>
+                <label>Пароль</label><br>
+                <input type="password" name="pass"><br>
+                <label>Повторите пароль</label><br>
+                <input type="password" name="repass"><br>
+                <label>Почта</label><br>
+                <input type="text" name="email"><br>
+                <br>
+                <div class="btn">
+                    <button type="submit">Зарегестрироваться</button>
+                </div>
+            </form>
+        </div>
+        <div class="formauth">
+            <form action="php/auth.php" method="post">
+                <h2>Авторизация</h2><br>
+                <div class="cen">
+                <label>Логин</label><br>
+                <input type="text" name="log"><br>
+                <label>Пароль</label><br>
+                <input type="password" name="pass"><br>
+                <br>
+                <div class="btn bt">
+                    <button type="submit">Войти</button>
+                </div> 
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

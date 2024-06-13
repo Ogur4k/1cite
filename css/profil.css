@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fddc9ef8;
+    z-index: 0;
+  }
+
+  .nav {
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.3);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #D59D80;
+  }
+  
+
+  .nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 3vh;
+  }
+  
+  .nav a:hover {
+    background-color: #964E27;
+    color: black;
+  }
+  
+  .person {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+  }
+  
+  .photo {
+    display: flex;
+    float: left;
+    margin-top: 7%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 5%;
+    justify-content: end;
+  }
+
+  .photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 2.5cap;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  .info {
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    margin-top: 7%;
+    width: 50%;
+    height: auto;
+  }
+  .info h2 {
+    width: 100%;
+    font-size: 4vh;
+  }
+  .info h3{
+    width: 100%;
+    font-size: 3vh;
+  }
+  .info a{
+    width: 100%;
+    font-size: 2.7vh;
+  }
+  
+  .btnPh {
+    display: flex;
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  .btnPh button {
+    height: 5vh;
+    width: max-content;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    justify-content: center;
+    background-color: #964E27;
+    font-size: 2.7vh;
+    border: 0px;
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.3);
+    border-radius: 1.5cap;
+  }
+
+  .btnLo {
+    display: flex;
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 13%;
+    margin-bottom: 2%;
+  }
+  .btnLo button {
+    height: 5vh;
+    width: max-content;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    justify-content: center;
+    background-color: #964E27;
+    font-size: 2.7vh;
+    border: 0px;
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.3);
+    border-radius: 1.5cap;
+    }
+
+  .list {
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    width: 70%;
+    height: max-content;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    background-color: #964E27;
+    border-radius: 2cap 2cap 0px 0px;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.5);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    justify-content: center;
+  }
+  .image {
+    width: 250px;
+    height: 320px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+  }
+
+  .image img{
+    width: 250px;
+    height: 320px;
+  }
